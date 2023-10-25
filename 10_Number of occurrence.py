@@ -13,5 +13,6 @@ n=len(arr)
 x =8
 
 print("The number of Occurrences are : ",countOccurence(arr,n,x))
+0
 
 
