@@ -11,7 +11,7 @@ class Solution:
                 if arr[low] > ml:
                     ml = arr[low]
                 else:
-                    ans += ml - arr[low]
+                    ans = ans+ml - arr[low]
                 low += 1
 
             else:
