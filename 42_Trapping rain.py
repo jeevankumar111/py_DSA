@@ -18,6 +18,6 @@ class Solution:
                 if arr[high] > mr:
                     mr = arr[high]
                 else:
-                    ans += mr - arr[high]
+                    ans = ans+mr - arr[high]
                 high -= 1
         return ans
