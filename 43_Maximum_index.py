@@ -23,3 +23,5 @@ class Solution:
                 i += 1
 
         return max_diff
+
+0
