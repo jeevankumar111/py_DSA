@@ -24,4 +24,4 @@ class Solution:
 
         return max_diff
 
-000
+0000
