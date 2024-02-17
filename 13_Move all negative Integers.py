@@ -6,4 +6,4 @@ sortAll(arr)
 for i in arr:
     print(i,end=" ")
 
-00
+000
