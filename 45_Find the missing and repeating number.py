@@ -15,4 +15,4 @@ class Solution:
         miss = int(exsum - sumarr)
 
         return [rep, miss]
-        0000000
+        00000000
