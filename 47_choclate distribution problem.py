@@ -1,0 +1,15 @@
+class Solution:
+
+    def findMinDiff(self, A, N, M):
+        # code here
+        A.sort()
+        i, j = 0, M - 1
+        min_diff = float("inf")
+
+        while j < N:
+            curr_diff = A[j] - A[i]
+            min_diff = min(min_diff, curr_diff)
+            i += 1
+            j += 1
+
+        return min_diff
