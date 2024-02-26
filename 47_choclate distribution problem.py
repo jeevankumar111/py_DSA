@@ -15,4 +15,4 @@ class Solution:
         return min_diff
 
 
-0
+00
