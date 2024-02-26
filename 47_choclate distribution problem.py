@@ -13,3 +13,6 @@ class Solution:
             j += 1
 
         return min_diff
+
+
+0
