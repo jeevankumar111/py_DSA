@@ -14,3 +14,4 @@ class Solution:
                 dp[i] = dp[i] or dp[i - num]
 
         return dp[target_sum]
+        0
